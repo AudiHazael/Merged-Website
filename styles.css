@@ -172,7 +172,7 @@ button.btn-outline-primary:hover,
     background-color: #0d4e996c;
     border: none;
     color: #f1f1f1;
-    
+
     transform: scale(1.12);
     transition: ease 1s;
 }
@@ -233,7 +233,7 @@ a.nav-link {
     border-radius: 10px;
     margin-top: 2em;
     padding: 1em 2em;
-    
+
     background: linear-gradient(50deg,
             rgba(170, 194, 216, 0.2) 12%,
             rgba(255, 255, 255, 0.1) 77%);
@@ -307,13 +307,14 @@ form div.approveMessage {
 
 .card {
     background: linear-gradient(50deg,
-    rgba(170, 194, 216, 0.534) 12%,
-    rgba(255, 255, 255, 0.507) 77%);
+            rgba(170, 194, 216, 0.534) 12%,
+            rgba(255, 255, 255, 0.507) 77%);
     box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     font-size: 15px;
     padding-bottom: 1rem;
+    margin: 2rem 0;
 
     cursor: pointer;
     max-width: max-content;
@@ -402,5 +403,9 @@ footer hr {
     .portfolioBox h4,
     .portfolioBox .btn {
         margin: 1em;
+    }
+
+    .card {
+        margin: auto;
     }
 }
