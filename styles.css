@@ -13,6 +13,7 @@ body {
     opacity: .9;
 }
 
+.article-section,
 .hero,
 .contactUs,
 header,
@@ -97,6 +98,11 @@ a:hover {
     text-decoration: none;
     transform: scale(1.055);
     transition: ease 1s;
+}
+
+li.nav-item :active {
+    text-decoration: dotted;
+    color: aqua;
 }
 
 /* Form */
@@ -228,6 +234,7 @@ a.nav-link {
     padding: 0em 2em;
 }
 
+.article-section .topics,
 .contactBox,
 .portfolioBox {
     border-radius: 10px;
